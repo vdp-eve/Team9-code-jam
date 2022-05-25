@@ -1,4 +1,9 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts/fonts.css);
 @import url(../blocks/about.css);
 @import url(../blocks/header.css);
 @import url(../blocks/page.css);
+@import url(../blocks/skill.css);
+@import url(../blocks/skills.css);
+@import url(../blocks/contacts.css);
+@import url(../blocks/form.css);

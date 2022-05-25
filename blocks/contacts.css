@@ -1,0 +1,64 @@
+.contacts__flex {
+  max-width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts__image {
+  max-width: 600px;
+  width: 100%;
+  max-height: 600px;
+}
+.contacts__button-container {
+  padding-top: 65px;
+}
+.contacts__button {
+  max-width: 285px;
+  width: 100%;
+  position: relative;
+  max-height: 80px;
+  padding: 15px 40px;
+  margin: 0;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.2;
+  background-color: rgb(214, 210, 210);
+  border: 2px solid #404851;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+}
+.contacts__button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 1110px) {
+  .contacts__flex {
+    max-width: 700px;
+  }
+  .contacts__image {
+    max-width: 400px;
+  }
+  .contacts__button-container {
+    padding-top: 30px;
+  }
+  .contacts__button {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .contacts {
+    padding-top: 20px;
+    background-image: url(../images/messagebubble.png);
+    background-size: 250px;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+  .contacts__image {
+    display: none;
+  }
+  .contacts__button-container {
+    padding-top: 150px;
+    margin: 0 auto;
+  }
+}
